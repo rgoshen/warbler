@@ -72,15 +72,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`
-
 ### Built With
 
-- []()
-- []()
-- []()
+- [Bootstrap](https://getbootstrap.com/)
+- [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [Python](https://www.python.org/)
 
 <!-- GETTING STARTED -->
 
@@ -90,12 +86,10 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
+- pip3
 
 ```sh
-npm install npm@latest -g
+pip3 install -r requirements.txt
 ```
 
 ### Installation
@@ -106,10 +100,24 @@ npm install npm@latest -g
 git clone https://github.com/rgoshen/warbler.git
 ```
 
-2. Install NPM packages
+2. Create a python virtual environment and invoke the environment
 
 ```sh
-npm install
+python -m venv venv
+source venv/bin/activate
+pyenv local 3.7.2
+```
+
+3. Install packages
+
+```sh
+pip3 install -r requirements.txt
+```
+
+4. Run the flask server and open browser to localhost
+
+```sh
+flask run
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -124,7 +132,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/rgoshen/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/rgoshen/warbler/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -148,7 +156,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@RickGoshen](https://twitter.com/RickGoshen) - email
+Your Name - [@RickGoshen](https://twitter.com/RickGoshen) - rick.goshen@gmail.com
 
 Project Link: [https://github.com/rgoshen/warbler](https://github.com/rgoshen/warbler)
 
