@@ -180,7 +180,7 @@ Project Link: [https://github.com/rgoshen/warbler](https://github.com/rgoshen/wa
 [issues-shield]: https://img.shields.io/github/issues/rgoshen/repo.svg?style=flat-square
 [issues-url]: https://github.com/rgoshen/warbler/issues
 [license-shield]: https://img.shields.io/github/license/rgoshen/repo.svg?style=flat-square
-[license-url]: https://github.com/rgoshen/warbler/blob/master/LICENSE.txt
+[license-url]: https://github.com/rgoshen/warbler/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/rickgoshen
 [product-screenshot]: images/screenshot.png
