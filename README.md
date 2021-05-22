@@ -173,7 +173,7 @@ Project Link: [https://github.com/rgoshen/warbler](https://github.com/rgoshen/wa
 
 [contributors-shield]: https://img.shields.io/github/contributors/rgoshen/warbler
 [contributors-url]: https://github.com/rgoshen/warbler/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/rgoshen/repo.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/rgoshen/warbler?style=social
 [forks-url]: https://github.com/rgoshen/warbler/network/members
 [stars-shield]: https://img.shields.io/github/stars/rgoshen/repo.svg?style=flat-square
 [stars-url]: https://github.com/rgoshen/warbler/stargazers
