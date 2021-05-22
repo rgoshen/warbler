@@ -177,7 +177,7 @@ Project Link: [https://github.com/rgoshen/warbler](https://github.com/rgoshen/wa
 [forks-url]: https://github.com/rgoshen/warbler/network/members
 [stars-shield]: https://img.shields.io/github/stars/rgoshen/warbler
 [stars-url]: https://github.com/rgoshen/warbler/stargazers
-[issues-shield]: https://img.shields.io/bitbucket/issues/rgoshen/warbler
+[issues-shield]: https://img.shields.io/github/issues-raw/rgoshen/warbler
 [issues-url]: https://github.com/rgoshen/warbler/issues
 [license-shield]: https://img.shields.io/github/license/rgoshen/warbler
 [license-url]: https://github.com/rgoshen/warbler/blob/main/LICENSE.txt
