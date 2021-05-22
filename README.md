@@ -171,7 +171,7 @@ Project Link: [https://github.com/rgoshen/warbler](https://github.com/rgoshen/wa
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/rgoshen/repo.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/rgoshen/warbler
 [contributors-url]: https://github.com/rgoshen/warbler/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/rgoshen/repo.svg?style=flat-square
 [forks-url]: https://github.com/rgoshen/warbler/network/members
