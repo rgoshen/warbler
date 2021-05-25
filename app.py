@@ -147,7 +147,6 @@ def users_show(user_id):
     """Show user profile."""
 
     user = User.query.get_or_404(user_id)
-
     # snagging messages in order from the database;
     # user.messages won't be in order by default
     messages = (Message
@@ -156,6 +155,7 @@ def users_show(user_id):
                 .order_by(Message.timestamp.desc())
                 .limit(100)
                 .all())
+    likes = [message.id for message in user.likes]
     return render_template('users/show.html', user=user, messages=messages, likes=likes)
 
 
