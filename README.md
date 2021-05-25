@@ -41,8 +41,6 @@
     <a href="https://github.com/rgoshen/warbler"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rgoshen/warbler">View Demo</a>
-    ·
     <a href="https://github.com/rgoshen/warbler/issues">Report Bug</a>
     ·
     <a href="https://github.com/rgoshen/warbler/issues">Request Feature</a>
@@ -70,7 +68,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot][product-screenshot]
+
+This is a Twitter clone with a springboard twist.
 
 ### Built With
 
@@ -120,14 +120,6 @@ pip3 install -r requirements.txt
 flask run
 ```
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <!-- ROADMAP -->
 
 ## Roadmap
@@ -159,14 +151,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Your Name - [@RickGoshen](https://twitter.com/RickGoshen) - rick.goshen@gmail.com
 
 Project Link: [https://github.com/rgoshen/warbler](https://github.com/rgoshen/warbler)
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-
-- []()
-- []()
-- []()
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
