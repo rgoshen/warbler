@@ -314,7 +314,7 @@ def messages_destroy(message_id):
     if msg.user_id != g.user.id:
         flash("Access unauthorized.", "danger")
         return redirect("/")
-        
+
     db.session.delete(msg)
     db.session.commit()
 
@@ -362,12 +362,14 @@ def homepage():
         
         messages = (Message
                     .query
-                    .order_by(Message.timestamp.desc())
                     .filter(Message.user_id.in_(following_ids))
+                    .order_by(Message.timestamp.desc())
                     .limit(100)
                     .all())
 
-        return render_template('home.html', messages=messages)
+        liked_msg_ids = [msg.id for msg in g.user.likes]
+
+        return render_template('home.html', messages=messages, likes=liked_msg_ids)
 
     else:
         return render_template('home-anon.html')
