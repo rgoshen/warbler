@@ -318,7 +318,6 @@ def homepage():
     """
 
     if g.user:
-
         following_ids = [following.id for following in g.user.following] + [g.user.id]
         
         messages = (Message
@@ -332,6 +331,13 @@ def homepage():
 
     else:
         return render_template('home-anon.html')
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    """404 NOT FOUND page."""
+
+    return render_template('404.html'), 404
 
 
 ##############################################################################
