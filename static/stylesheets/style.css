@@ -5,12 +5,7 @@ body {
 }
 
 body.error-404 {
-  /* background-color: #1da1f2; */
-  color: #0d6efd;
-}
-
-.message-404 {
-  color: #0d6efd;
+  background-color: #1da1f2;
 }
 
 .form-control {
@@ -513,7 +508,7 @@ p.card-bio {
   min-width: 105px;
 }
 
-#messages-form {
+.messages-like {
   position: absolute;
   top: 4px;
   right: 4px;
